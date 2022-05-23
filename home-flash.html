@@ -320,9 +320,8 @@
             </div>
           </div>
         </div>
-
+        <!-- end footer -->
       </div>
-
     </div>
 
 
@@ -405,9 +404,9 @@
               .setClassToggle('.item-nav-4', 'active')
               .addTo(controller);
 
-        // new ScrollMagic.Scene({triggerElement: '.flash-pin-5', triggerHook: 1, duration: $('.flash-pin-6').offset().top - $('.flash-pin-5').offset().top})
-        //       .setClassToggle('.item-nav-5', 'active')
-        //       .addTo(controller);
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-5', triggerHook: 1, duration: $('.flash-pin-6').offset().top - $('.flash-pin-5').offset().top})
+              .setClassToggle('.item-nav-5', 'active')
+              .addTo(controller);
       });
     </script>
 
